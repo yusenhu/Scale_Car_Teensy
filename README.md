@@ -81,10 +81,3 @@ Before deployment, calibrate:
 - PI gains (`Kp`, `Ki`)
 - encoder counts-per-rev mapping to true vehicle speed
 
-## Build/flash
-
-Open `teensy_controller.ino` in Arduino IDE (with Teensyduino and required libraries):
-- `VescUart`
-- `NativeEthernet`
-
-Select Teensy 4.1 and upload.
